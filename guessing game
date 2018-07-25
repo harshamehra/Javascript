@@ -1,0 +1,25 @@
+//create secret number 
+var secretNumber= 4;
+
+//ask user for guess
+var guess = prompt("guess a number ");
+alert (guess);
+
+
+
+//check guess is right
+//we use number to pass it as a number 
+
+if( Number(guess) === secretNumber){
+	alert("that's right ")
+}
+else if (Number(guess) < secretNumber)
+{
+	alert("Guess to low");
+}
+
+else ( Number(guess)=== secretNumber)
+{
+	alert("Number too high ");
+}
+
